@@ -15,7 +15,7 @@ To make the *loan qualifier* user friendly, this project imports the following l
 ```bash
 $ pip install questionary
 ```
-* [fyre](https://github.com/google/python-fire)
+* [fire](https://github.com/google/python-fire)
 ```bash
 $ pip install fire
 ```
