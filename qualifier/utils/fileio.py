@@ -36,8 +36,7 @@ def save_csv(csvpath, data):
     Args:
         csvpath (Path): The csv file path.
         data (list): Data that will be written into the csv file
-    """    
-    print(data)
+    """        
     with open(csvpath, 'w', newline='') as csvfile:
         csvwriter = csv.writer(csvfile)
         for row in data:

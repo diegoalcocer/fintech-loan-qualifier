@@ -120,6 +120,7 @@ def save_qualifying_loans(qualifying_loans):
         save_csv(csvpath, qualifying_loans)
 
 
+
 def run():
     """The main function for running the script."""
 
@@ -135,7 +136,9 @@ def run():
     )
 
     # Save qualifying loans
-    save_qualifying_loans(qualifying_loans)
+    save_qualifying_loans(qualifying_loans)   
+    
+    sys.exit("Thank you for using iQualify")
 
 
 if __name__ == "__main__":
