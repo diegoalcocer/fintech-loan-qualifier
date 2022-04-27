@@ -39,11 +39,11 @@ $ conda activate <environment_name>
 
 Clone the app from this repository to start using it. 
 
-![iQualify: Loan Qualifier](img/capture_1_clone.png)
+![iQualify: Loan Qualifier](img/capture_1_clone.PNG)
 
 You will find multiple folders with code and a folder for the data (called data 😅). After you have cloned the app, go to the terminal, and navigate to the root folder (📁 **loan_qualifier_app**)
 
-💻 To start the application, simply type the following command 
+💻 To start the application, simply type the following command or from *visual studio code* click the run button.
 
 ```bash
 $ python app.py
@@ -54,13 +54,13 @@ The CLI will ask you to input some data in order to calculate:
 * The loan to value ratio
 * Qualifying loans
 
-<img style="padding:20px;" src="img/capture_2_input.png" alt="iQualify: Loan Qualifier">
+<img style="padding:20px;" src="img/capture_2_input.PNG" alt="iQualify: Loan Qualifier">
 
-The app will make the calculations based on the data given in the csv file. Once the calculations are ready, you will be prompted to save the results in a CSV file. 
+The app will make the calculations based on the data given in the csv file. Once the calculations are ready, you will be prompted to save the results in a **CSV** file if you want. 
 
-<img style="padding:20px;" src="img/cp_3_output.png" alt="iQualify: Loan Qualifier">
+<img style="padding:20px;" src="img/cp_3_output.PNG" alt="iQualify: Loan Qualifier">
 
-
+And that's all, I hope you enjoy the app. 
 
 ---
 
